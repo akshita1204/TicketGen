@@ -1,9 +1,9 @@
-import express from "express"
+import express from "express";
 import mongoose from "mongoose"
 import cors from "cors"
 
 const PORT=process.env.PORT
-const app=express()
+const app = express();
 app.use(cors())
 app.use(express.json())
 
